@@ -1,0 +1,29 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px 0;
+}
+h1 input{
+    width: 60%;
+    border: none;
+    font-size: 30px;
+    text-align: center;
+}
+button{
+    width: 80%;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px ;
+    border: black solid 4px;
+    background-color: transparent;
+}

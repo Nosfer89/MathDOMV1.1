@@ -1,0 +1,71 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div{
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px 0 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#ci{
+    border: none;
+    max-width: 70%;
+}
+#color{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#ci input{
+    width: 100%;
+}
+#ci :nth-child(1){
+    accent-color: rgb(209, 0, 0);
+}
+#ci :nth-child(2){
+    accent-color: green;
+}
+#ci :nth-child(3){
+    accent-color: rgb(0, 0, 209);
+}
+
+
+canvas{
+    width: 100%;
+}
+input{
+    width: 80%;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+#bc button{
+    width: 30%;
+    min-width: 70px;
+    height: 50px;
+    font-size:24px;
+    margin: 0 4px;
+    border-radius: 15px;
+    transition: all 1s;
+    border: 1px black solid;
+    box-shadow: 2px 2px 4px black;
+}
+#bc button:hover{
+    background-color: black;
+    color: white;
+}
+#bc{
+    padding: none;
+    border:none;
+}
+#containner{
+    padding: 10px;
+    height: auto;
+}
